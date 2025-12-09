@@ -137,4 +137,12 @@ input[type="radio"] {
 #tab3:checked + .tab-label,
 #tab4:checked + .tab-label,
 #tab5:checked + .tab-label {
-    background: rgba(255,255,2
+    background: rgba(255,255,2);
+}
+
+/* To make the link less obvious*/
+.card-link {
+    text-decoration:none;
+    color: inherit;
+    display: block;
+}
