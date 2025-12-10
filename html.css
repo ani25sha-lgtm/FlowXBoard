@@ -15,11 +15,11 @@ body {
     left: 0;
     width: 200%;
     height: 200%;
-    background: linear-gradient(-45deg, #ff00ff, #0066ff, #00ffcc, #5500ff);
+    background: linear-gradient(-45deg, #8a2be2, #5500ff, #00ffcc, #ff00ff);
     background-size: 400% 400%;
     z-index: -1;
-    filter: blur(100px);
-    animation: glowMove 12s ease infinite;
+    filter: blur(120px);
+    animation: glowMove 14s ease infinite;
 }
 
 @keyframes glowMove {
@@ -28,33 +28,54 @@ body {
     100% { background-position: 0% 50%; }
 }
 
-/* ---- Content Styling ---- */
+/* ---- Content Wrapper ---- */
 .content {
     width: 85%;
     margin: 80px auto;
-    background: rgba(0, 0, 0, 0.45);
-    backdrop-filter: blur(10px);
-    padding: 20px;
-    border-radius: 16px;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.55);
+    backdrop-filter: blur(12px);
+    padding: 25px;
+    border-radius: 18px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+
+    /* NEW: Cyber Glow */
+    box-shadow: 
+        0 0 15px rgba(138, 43, 226, 0.4),
+        0 0 35px rgba(138, 43, 226, 0.25);
 }
 
+/* ---- Headings ---- */
 h1, h2 {
-    color: #d8c8ff;
-    margin-bottom: 20px;
+    color: #c88bff;  /* matches tag CSS heading color */
+    margin-bottom: 16px;
+    letter-spacing: 1px;
+
+    /* subtle glow */
+    text-shadow: 
+        0 0 6px rgba(138, 43, 226, 0.4),
+        0 0 12px rgba(138, 43, 226, 0.3);
 }
 
+/* ---- Text ---- */
 p, ul {
-    line-height: 1.6;
+    line-height: 1.7;
+    color: #e8e0ff;
 }
 
 ul {
     list-style-type: disc;
-    margin-left: 20px;
+    margin-left: 22px;
 }
 
 strong {
-    color: #9a4dff;
+    color: #9a4dff; /* purple accent */
+}
+
+/* ---- Section Divider (matches tag theme) ---- */
+.divider {
+    width: 100%;
+    height: 2px;
+    background: rgba(255,255,255,0.12);
+    margin: 30px 0;
 }
 
