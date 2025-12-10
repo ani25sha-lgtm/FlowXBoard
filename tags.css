@@ -1,0 +1,125 @@
+/* -------------------------------------------
+   GLOBAL CYBERPUNK + MINIMAL THEME
+-------------------------------------------- */
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    background: #0a0a0f;
+
+    /* Subtle neon grid */
+    background-image: 
+        linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px),
+        linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px);
+    background-size: 60px 60px;
+
+    color: #ffffff;
+    overflow-x: hidden;
+}
+
+
+/* -------------------------------------------
+   SECTION BLOCKS
+-------------------------------------------- */
+section {
+    background: rgba(20,20,30,0.45);
+    border: 1px solid rgba(140,59,255,0.45);
+    padding: 22px;
+    margin: 35px 0;
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 15px rgba(140,59,255,0.18);
+    transition: 0.3s ease;
+}
+
+/* Hover pulse */
+section:hover {
+    border-color: #00eaff;
+    box-shadow: 0 0 28px rgba(0,255,255,0.25);
+}
+
+
+/* -------------------------------------------
+   SECTION TITLES (NEON BAR + ICON)
+-------------------------------------------- */
+section h2 {
+    color: #d8bfff;
+    font-size: 26px;
+    margin-bottom: 18px;
+    text-shadow: 0 0 10px #b95dff;
+    position: relative;
+    padding-left: 6px;
+}
+
+/* Neon icon */
+section h2::before {
+    content: "◆ ";
+    color: #00eaff;
+    text-shadow: 0 0 15px #00eaff;
+}
+
+/* Neon divider bar */
+section h2::after {
+    content: "";
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(90deg, #8c3bff, #00eaff);
+    box-shadow: 0 0 15px #8c3bff;
+}
+
+
+/* -------------------------------------------
+   PARAGRAPHS
+-------------------------------------------- */
+section p {
+    color: #e8e8e8;
+    line-height: 1.6;
+    font-size: 15px;
+}
+
+
+/* -------------------------------------------
+   CODE BLOCKS (HOLOGRAPHIC TERMINAL STYLE)
+-------------------------------------------- */
+pre {
+    background: rgba(10,10,18,0.75);
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 15px;
+    border-left: 4px solid #9a4dff;
+    overflow-x: auto;
+    box-shadow: 0 0 18px rgba(154,77,255,0.25);
+}
+
+code {
+    font-family: Consolas, monospace;
+    color: #eaeaea;
+    white-space: pre;
+}
+
+
+/* -------------------------------------------
+   OPTIONAL: SMOOTH SCROLLBAR
+-------------------------------------------- */
+::-webkit-scrollbar {
+    width: 9px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #8c3bff;
+    border-radius: 10px;
+}
+
+
+/* -------------------------------------------
+   HEADINGS INSIDE SECTIONS
+-------------------------------------------- */
+section h3 {
+    margin-top: 15px;
+    color: #9aeaff;
+    font-size: 20px;
+    text-shadow: 0 0 8px #00eaff;
+}

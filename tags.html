@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tags.css">
+    <title>HTML Tags Explained</title>
+</head>
+<body>
+
+    <h1>HTML Tags – Full Detailed Explanation</h1>
+    <p>This page contains all major HTML tag classifications, descriptions, and code examples.</p>
+
+    <!-- SECTION 1 -->
+    <section>
+        <h2>1. Structural Tags (Document Structure)</h2>
+        <p>These tags define the basic structure of an HTML document.</p>
+
+        <h3>&lt;html&gt;</h3>
+        <p>Root element of every HTML page.</p>
+        <pre>
+<code>&lt;html&gt;
+    ...
+&lt;/html&gt;</code>
+        </pre>
+
+        <h3>&lt;head&gt;</h3>
+        <p>Contains metadata, links, scripts, and the document title.</p>
+        <pre>
+<code>&lt;head&gt;
+    &lt;title&gt;My Page&lt;/title&gt;
+&lt;/head&gt;</code>
+        </pre>
+
+        <h3>&lt;body&gt;</h3>
+        <p>Contains the visible content of the webpage.</p>
+        <pre>
+<code>&lt;body&gt;
+    &lt;h1&gt;Hello World&lt;/h1&gt;
+&lt;/body&gt;</code>
+        </pre>
+    </section>
+
+    <!-- SECTION 2 -->
+    <section>
+        <h2>2. Text Formatting Tags</h2>
+        <p>Tags used to insert and style text content.</p>
+
+        <h3>&lt;p&gt; — Paragraph</h3>
+        <p>Represents a block of text.</p>
+        <pre><code>&lt;p&gt;This is a paragraph.&lt;/p&gt;</code></pre>
+
+        <h3>&lt;b&gt; and &lt;strong&gt;</h3>
+        <p><b>&lt;b&gt;</b> makes text bold visually.  
+        <strong>&lt;strong&gt;</strong> indicates important text.</p>
+        <pre><code>&lt;b&gt;Bold Text&lt;/b&gt;
+&lt;strong&gt;Strong Important Text&lt;/strong&gt;</code></pre>
+
+        <h3>&lt;i&gt; and &lt;em&gt;</h3>
+        <p><i>&lt;i&gt;</i> creates italic text.  
+        <em>&lt;em&gt;</em> emphasizes meaning.</p>
+        <pre><code>&lt;i&gt;Italic Text&lt;/i&gt;
+&lt;em&gt;Emphasized Text&lt;/em&gt;</code></pre>
+
+        <h3>&lt;u&gt;</h3>
+        <p>Underlines text.</p>
+        <pre><code>&lt;u&gt;Underlined Text&lt;/u&gt;</code></pre>
+
+        <h3>&lt;br&gt;</h3>
+        <p>Creates a line break.</p>
+        <pre><code>Hello&lt;br&gt;World</code></pre>
+
+        <h3>&lt;hr&gt;</h3>
+        <p>Creates a horizontal line divider.</p>
+        <pre><code>&lt;hr&gt;</code></pre>
+    </section>
+
+    <!-- SECTION 3 -->
+    <section>
+        <h2>3. Heading Tags</h2>
+        <p>HTML provides six levels of headings from h1 to h6.</p>
+        <pre>
+<code>&lt;h1&gt;Main Heading&lt;/h1&gt;
+&lt;h2&gt;Sub Heading&lt;/h2&gt;
+&lt;h3&gt;Topic Heading&lt;/h3&gt;
+&lt;h4&gt;Small Heading&lt;/h4&gt;
+&lt;h5&gt;Tiny Heading&lt;/h5&gt;
+&lt;h6&gt;Smallest Heading&lt;/h6&gt;</code>
+        </pre>
+    </section>
+
+    <!-- SECTION 4 -->
+    <section>
+        <h2>4. List Tags</h2>
+        <p>Lists help organize multiple related items.</p>
+
+        <h3>Unordered List — &lt;ul&gt;</h3>
+        <p>Uses bullet points.</p>
+        <pre>
+<code>&lt;ul&gt;
+    &lt;li&gt;Item 1&lt;/li&gt;
+    &lt;li&gt;Item 2&lt;/li&gt;
+&lt;/ul&gt;</code>
+        </pre>
+
+        <h3>Ordered List — &lt;ol&gt;</h3>
+        <p>Uses numbers.</p>
+        <pre>
+<code>&lt;ol&gt;
+    &lt;li&gt;First&lt;/li&gt;
+    &lt;li&gt;Second&lt;/li&gt;
+&lt;/ol&gt;</code>
+        </pre>
+
+        <h3>Description List — &lt;dl&gt;</h3>
+        <p>Contains terms and descriptions.</p>
+        <pre>
+<code>&lt;dl&gt;
+    &lt;dt&gt;HTML&lt;/dt&gt;
+    &lt;dd&gt;HyperText Markup Language&lt;/dd&gt;
+&lt;/dl&gt;</code>
+        </pre>
+    </section>
+
+    <!-- SECTION 5 -->
+    <section>
+        <h2>5. Link and Anchor Tags</h2>
+        <p>Used for navigation within or outside a website.</p>
+
+        <h3>&lt;a&gt;</h3>
+        <p>Defines a hyperlink.</p>
+        <pre><code>&lt;a href="https://example.com"&gt;Visit Example&lt;/a&gt;</code></pre>
+
+        <h3>Email Link</h3>
+        <pre><code>&lt;a href="mailto:hello@example.com"&gt;Send Email&lt;/a&gt;</code></pre>
+
+        <h3>Phone Link</h3>
+        <pre><code>&lt;a href="tel:+1234567890"&gt;Call Me&lt;/a&gt;</code></pre>
+    </section>
+
+    <!-- SECTION 6 -->
+    <section>
+        <h2>6. Image and Multimedia Tags</h2>
+
+        <h3>&lt;img&gt;</h3>
+        <p>Displays an image.</p>
+        <pre><code>&lt;img src="image.jpg" alt="Description"&gt;</code></pre>
+
+        <h3>&lt;audio&gt;</h3>
+        <p>Adds audio controls.</p>
+        <pre>
+<code>&lt;audio controls&gt;
+    &lt;source src="audio.mp3" type="audio/mpeg"&gt;
+&lt;/audio&gt;</code>
+        </pre>
+
+        <h3>&lt;video&gt;</h3>
+        <p>Displays a video.</p>
+        <pre>
+<code>&lt;video controls&gt;
+    &lt;source src="video.mp4" type="video/mp4"&gt;
+&lt;/video&gt;</code>
+        </pre>
+    </section>
+
+    <!-- SECTION 7 -->
+    <section>
+        <h2>7. Table Tags</h2>
+
+        <h3>&lt;table&gt;</h3>
+        <p>Defines a table.</p>
+
+        <pre>
+<code>&lt;table&gt;
+    &lt;tr&gt;
+        &lt;th&gt;Name&lt;/th&gt;
+        &lt;th&gt;Age&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Alice&lt;/td&gt;
+        &lt;td&gt;20&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;</code>
+        </pre>
+    </section>
+
+    <!-- SECTION 8 -->
+    <section>
+        <h2>8. Form Tags</h2>
+
+        <h3>&lt;form&gt;</h3>
+        <p>Used to take user input.</p>
+
+        <pre>
+<code>&lt;form action="#" method="post"&gt;
+    &lt;label&gt;Name:&lt;/label&gt;
+    &lt;input type="text" name="username"&gt;
+
+    &lt;label&gt;Password:&lt;/label&gt;
+    &lt;input type="password" name="password"&gt;
+
+    &lt;button type="submit"&gt;Submit&lt;/button&gt;
+&lt;/form&gt;</code>
+        </pre>
+    </section>
+
+    <!-- SECTION 9 -->
+    <section>
+        <h2>9. Semantic HTML5 Tags</h2>
+        <p>These tags give meaning to parts of a web page.</p>
+
+        <h3>&lt;header&gt;</h3>
+        <p>Top section of a page.</p>
+        <pre><code>&lt;header&gt;This is header&lt;/header&gt;</code></pre>
+
+        <h3>&lt;nav&gt;</h3>
+        <p>Navigation links.</p>
+        <pre><code>&lt;nav&gt;
+    &lt;a href="#home"&gt;Home&lt;/a&gt;
+&lt;/nav&gt;</code></pre>
+
+        <h3>&lt;section&gt;</h3>
+        <p>Group of related content.</p>
+        <pre><code>&lt;section&gt;Content Section&lt;/section&gt;</code></pre>
+
+        <h3>&lt;article&gt;</h3>
+        <p>Independent content like a blog post.</p>
+        <pre><code>&lt;article&gt;Blog Content&lt;/article&gt;</code></pre>
+
+        <h3>&lt;footer&gt;</h3>
+        <p>Bottom section of a page.</p>
+        <pre><code>&lt;footer&gt;Footer Info&lt;/footer&gt;</code></pre>
+    </section>
+
+    <!-- SECTION 10 -->
+    <section>
+        <h2>10. Container Tags</h2>
+
+        <h3>&lt;div&gt;</h3>
+        <p>Block-level container (used to group large sections).</p>
+        <pre><code>&lt;div&gt;This is a div block&lt;/div&gt;</code></pre>
+
+        <h3>&lt;span&gt;</h3>
+        <p>Inline container (used to style small text portions).</p>
+        <pre><code>&lt;span&gt;Inline text&lt;/span&gt;</code></pre>
+    </section>
+
+</body>
+</html>
