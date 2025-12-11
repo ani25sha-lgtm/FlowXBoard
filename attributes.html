@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Attributes – Explained</title>
+    <link rel="stylesheet" href="attributes.css">
+</head>
+<body>
+
+<div class="content">
+    <h1>HTML Attributes</h1>
+    <p>
+        HTML attributes are special properties added to HTML tags to provide extra information
+        about an element. They modify how the element behaves, appears, or interacts.
+    </p>
+
+    <hr>
+
+    <!-- SECTION 1 -->
+    <section>
+        <h2>1. What Are Attributes?</h2>
+        <p>
+            Attributes are values written inside the opening tag.  
+            Format → <strong>attribute="value"</strong>
+        </p>
+
+        <div class="code-snippet">
+            <div class="code-block">
+                <code>
+&lt;tagname attribute="value"&gt;Content&lt;/tagname&gt;
+                </code>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <!-- SECTION 2 -->
+    <section>
+        <h2>2. Commonly Used Attributes</h2>
+
+        <h3>• 'id' Attribute</h3>
+        <p>The <strong>id</strong> uniquely identifies an element on a web page.</p>
+
+        <div class="code-snippet">
+            <div class="code-block">
+                <code>
+&lt;h1 id="main-title"&gt;Welcome&lt;/h1&gt;
+                </code>
+            </div>
+        </div>
+
+        <h3>• 'class' Attribute</h3>
+        <p>The <strong>class</strong> attribute is used to group elements for styling.</p>
+
+        <div class="code-snippet">
+            <div class="code-block">
+                <code>
+&lt;p class="info-text"&gt;This is a paragraph.&lt;/p&gt;
+                </code>
+            </div>
+        </div>
+
+        <h3>• 'style' Attribute</h3>
+        <p>Used to apply CSS directly inside an HTML tag.</p>
+
+        <div class="code-snippet">
+            <div class="code-block">
+                <code>
+&lt;p style="color: purple;"&gt;Inline styling example.&lt;/p&gt;
+                </code>
+            </div>
+        </div>
+
+        <h3>• 'title' Attribute</h3>
+        <p>Displays a tooltip when the user hovers over the element.</p>
+
+        <div class="code-snippet">
+            <div class="code-block">
+                <code>
+&lt;span title="Tooltip text"&gt;Hover over me&lt;/span&gt;
+                </code>
+            </div>
+        </div>
+
+    </section>
+
+    <hr>
+
+    <!-- SECTION 3 -->
+    <section>
+        <h2>3. Attributes for Links & Images</h2>
+
+        <h3>• 'href' Attribute</h3>
+        <p>Used inside <strong>&lt;a&gt;</strong> to define link destinations.</p>
+
+        <div class="code-snippet">
+            <div class="code-block">
+                <code>
+&lt;a href="https://example.com"&gt;Visit Example&lt;/a&gt;
+                </code>
+            </div>
+        </div>
+
+        <h3>• 'src' Attribute</h3>
+        <p>Specifies the source of an image.</p>
+
+        <div class="code-snippet">
+            <div class="code-block">
+                <code>
+&lt;img src="photo.jpg" alt="A photo"&gt;
+                </code>
+            </div>
+        </div>
+
+        <h3>• 'alt' Attribute</h3>
+        <p>
+            Provides alternative text if the image doesn't load.  
+            Also important for accessibility.
+        </p>
+
+        <div class="code-snippet">
+            <div class="code-block">
+                <code>
+&lt;img src="logo.png" alt="Website logo"&gt;
+                </code>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <!-- SECTION 4 -->
+    <section>
+        <h2>4. Boolean Attributes</h2>
+        <p>
+            Boolean attributes do not need a value.  
+            Example: <strong>checked</strong>, <strong>disabled</strong>, <strong>readonly</strong>.
+        </p>
+
+        <div class="code-snippet">
+            <div class="code-block">
+                <code>
+&lt;input type="checkbox" checked&gt;
+&lt;button disabled&gt;Disabled Button&lt;/button&gt;
+                </code>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <!-- SECTION 5 -->
+    <section>
+        <h2>5. Global Attributes (Work on Any Tag)</h2>
+        <ul>
+            <li><strong>id</strong></li>
+            <li><strong>class</strong></li>
+            <li><strong>style</strong></li>
+            <li><strong>title</strong></li>
+            <li><strong>hidden</strong></li>
+            <li><strong>draggable</strong></li>
+            <li><strong>data-*</strong> attributes</li>
+        </ul>
+
+        <div class="code-snippet">
+            <div class="code-block">
+                <code>
+&lt;div id="box" class="card" data-user="anisha"&gt;
+    User Profile Box
+&lt;/div&gt;
+                </code>
+            </div>
+        </div>
+    </section>
+
+</div>
+
+</body>
+</html>
