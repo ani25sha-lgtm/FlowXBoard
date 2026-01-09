@@ -41,6 +41,11 @@ p {
     line-height: 1.65;
     color: #e8e0ff;
 }
+.tags {
+    line-height: 0.8em;
+    color: #e8e0ff;
+}
+
 
 /* ---- Code Snippet Section ---- */
 .code-snippet {
@@ -65,7 +70,7 @@ p {
 .code-block code {
     color: #eaeaea;
     font-family: Consolas, monospace;
-    font-size: 14px;
+    font-size: 17px;
     white-space: pre;
 }
 
