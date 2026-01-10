@@ -70,7 +70,7 @@ body {
     color: #fff;
 }
 
-/* ---------- ANIMATED BACKGROUND ---------- */
+/* ---------- BACKGROUND ANIMATIONS ---------- */
 .bg-animation {
     position: fixed;
     top: 0;
@@ -146,3 +146,4 @@ input[type="radio"] {
     color: inherit;
     display: block;
 }
+
